@@ -1,0 +1,48 @@
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 1px;
+
+}
+.blocks{
+    display: flex;
+}
+.block{
+    display: flex;
+    flex: 1 1 auto;
+    width: 400px;
+    height: 400px;
+    border: 10px dotted white;
+    align-items: center;
+    background-color: blueviolet;
+    margin: 100px 0 0 0;
+    &:hover {
+        margin: auto;
+    }
+        &:first-child {
+            align-items: start;
+            margin: 10%;
+            &:hover {
+                margin: auto;
+            }
+    }
+        &:last-child {
+            margin: 6%;
+            align-items: center;
+            &:hover {
+                margin: auto;
+            }
+        }
+}
+
+
+
+.text{
+    padding: 50px;
+    align-items: center;
+    border: 2px dotted yellow;
+}
